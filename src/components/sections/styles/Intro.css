@@ -61,38 +61,6 @@
     top: 10vh;
   }
   
-  /* Header content & title & button*/
-  .header_content{
-    margin-top:25%;
-    text-align: center;
-    color:  #EFEEF5;
-  }
-  .header_content h1{
-    text-transform: uppercase;
-    font-size: 3em;
-    letter-spacing: 1px;
-  }
-  .header_content p {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 20px auto;
-  }
-  .header_content button{
-    width: 140px;
-    margin:20px 10px;
-    color: #591BC5;
-    font-size: 17px;
-    border:1px solid #EFEEF5;
-    font-weight: 500;
-    background: #EFEEF5;
-    border-radius: 20px;
-    padding: 10px;
-    cursor:pointer;
-    transition: .3s;
-  }
-  .header_content button:hover{
-    border-radius: 0;
-  }
   
   /* Animate Background*/
   @keyframes Gradient {
@@ -116,3 +84,43 @@
       opacity: 0;
     }
   }
+
+  .im{
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name {
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .name:hover{
+    font-weight: 900;
+    font-size: 70px;
+    color: rgb(118, 246, 255);
+    width: auto;
+    height: auto;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
