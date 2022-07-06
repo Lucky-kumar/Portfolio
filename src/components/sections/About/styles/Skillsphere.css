@@ -4,13 +4,30 @@
   background-color: #000
 } */
 
+.spherecontainer{
+  height: fit-content;
+  width: fit-content;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  z-index: 1000;
+}
+
 .tagcloud {
     font-family: 'Poppins', sans-serif;  
     font-size: 20px;
-    margin: 100px 150px 0 auto;
     width: 50%;
     color: rgb(255, 255, 255);
     /* background-color: red; */
+
+    /* display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end; */
   }
   .tagcloud--item:hover {
     color: #36454F;

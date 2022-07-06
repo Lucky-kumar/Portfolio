@@ -24,7 +24,7 @@ const Skillsphere = () => {
         var tagCloud = TagCloud('.content', myTags, {
 
             // radius in px
-            radius: 250,
+            radius: 300,
 
             // animation speed
             // slow, normal, fast
@@ -43,8 +43,8 @@ const Skillsphere = () => {
     })
 
     return (
-        <div>
-            <span className="content"></span>
+        <div className='spherecontainer'>
+            <div className="content"></div>
         </div>
     )
 }

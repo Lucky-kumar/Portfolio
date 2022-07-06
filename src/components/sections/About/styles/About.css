@@ -1,5 +1,5 @@
 .about_html {
-  height: 150vh;
+  height: auto;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   overflow: hidden;
 }
@@ -86,4 +86,22 @@
   to {
       transform: translateY(-2000px);
   }
+}
+
+.glass{
+  background: rgba( 60, 255, 213, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+margin: 0 auto 0 0;
+width: fit-content;
+height: 400px;
+color: #FFF;
+z-index: 1;
+position: absolute;
+
 }

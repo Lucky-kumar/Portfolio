@@ -10,6 +10,9 @@ const About = () => {
       <div id='stars2'></div>
       <div id='stars3'></div>
       <AboutH />
+      <div className='glass'>
+        My name is Lucky kumar. I am a passionate full stack developer.
+      </div>
       <Skillsphere />
 
     </div>
