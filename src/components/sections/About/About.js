@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from '../Skills/Skills';
 import AboutH from './AboutH';
 import Skillsphere from './Skillsphere';
 import './styles/About.css'
@@ -14,6 +15,7 @@ const About = () => {
         My name is Lucky kumar. I am a passionate full stack developer.
       </div>
       <Skillsphere />
+      <Skills/>
 
     </div>
   )
