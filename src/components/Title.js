@@ -1,12 +1,11 @@
 import React from 'react'
 import './styles/Title.css'
 
-
 const Title = () => {
 
     return (
-        <div class="container">
-            <div class="animate three">
+        <div className="container">
+            <div className="animate three">
                 <span>f</span><span>u</span><span>l</span><span>l</span> &nbsp;
                 <span>s</span><span>t</span><span>a</span><span>c</span><span>k</span>&nbsp;
                 <span>w</span><span>e</span><span>b</span>&nbsp;

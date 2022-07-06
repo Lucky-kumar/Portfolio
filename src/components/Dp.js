@@ -4,11 +4,10 @@ import image from '../utils/dp.jpeg'
 
 const Dp = () => {
   return (
-    // eslint-disable-next-line jsx-a11y/anchor-is-valid
-    <div class="photo">
+    <div className="photo">
     <img src={image} alt="lucky kumar" />
-  <div class="glow-wrap">
-    <i class="glow"></i>
+  <div className="glow-wrap">
+    <i className="glow"></i>
   </div>
 </div>
     )
