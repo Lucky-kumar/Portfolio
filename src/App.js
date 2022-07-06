@@ -1,6 +1,6 @@
 import './App.css';
-import Intro from './components/sections/Intro';
-import About from './components/sections/About';
+import Intro from './components/sections/Intro/Intro';
+import About from './components/sections/About/About';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/Dp.css'
-import image from '../utils/dp.jpeg'
+import image from '../../../utils/dp.jpeg'
 
 const Dp = () => {
   return (

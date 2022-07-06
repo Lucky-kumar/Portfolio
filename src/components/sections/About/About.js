@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutH from '../AboutH';
-import Skillsphere from './../Skillsphere';
+import AboutH from './AboutH';
+import Skillsphere from './Skillsphere';
 import './styles/About.css'
 
 const About = () => {
