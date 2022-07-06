@@ -21,7 +21,7 @@ import {
     SiGitlab,
     SiTailwindcss,
     SiPostman,
-    SiMaterialui,
+    SiMaterialui,w
   } from "react-icons/si";
 
 import {
