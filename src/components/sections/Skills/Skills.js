@@ -15,6 +15,7 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
+      <h1 >Skills</h1>
       <div className="skill_icons_section">
         {Icons.map((language, index) =>
           language.icon &&
