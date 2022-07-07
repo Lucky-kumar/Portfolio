@@ -5,9 +5,9 @@ import Form from './Form';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contact_cntr'>
+    <Form/>
       <ContactBg/>
-      <Form/>
     </div>
   )
 }
