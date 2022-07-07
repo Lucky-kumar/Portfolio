@@ -12,7 +12,13 @@
   overflow: hidden;
 }
 
+
 .fh1 {
+  font-size: 2rem;
+  font-family: 'Dancing Script';
+}
+
+.msg {
   font-size: 2rem;
   font-family: 'Dancing Script';
 }

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='contact_cntr'>
       <CTitle />
-      {/* <Form /> */}
+      <Form />
       <ContactBg />
     </div>
   )

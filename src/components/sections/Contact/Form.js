@@ -32,7 +32,7 @@ const Form = () => {
                 <div class="envelope front"></div>
                 <div class="envelope back"></div>
             </div>
-            <p class="result-message centered">Thank you for your message</p>
+            <p class="msg result-message centered">Thank you for your message</p>
 
         </div>
         </>

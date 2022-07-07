@@ -3,13 +3,14 @@
   .ct_body {
     color: #FFFFFF;
     display: flex;
+    position: absolute;
   }
   
   /*
   ** Apply styles to the parent element
   */
   .Words {
-    margin: 0 auto;
+    margin: 0 0;
     padding: 80px 0;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-size: 40px;
