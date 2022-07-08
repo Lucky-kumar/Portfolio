@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.pt_body {
+  text-align:center;
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  overflow:hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.pt_div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  width: max-content;
+  margin-right: 10px;
+  
+}
+
+.pt_div:first-of-type {    
+  animation: showup 7s infinite;
+}
+
+.pt_div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.pt_div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}

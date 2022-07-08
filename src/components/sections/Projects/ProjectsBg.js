@@ -1,6 +1,9 @@
 import React from 'react'
 import $ from "jquery";
 import './styles/ProjectsBg.css'
+import Card from './Card.tsx'
+import PTitle from './PTitle';
+
 
 $(window).scroll(function () {
 
@@ -36,12 +39,24 @@ const ProjectsBg = () => {
     return (
         <div className="p_body">
             <div className="panel" data-color="white">
-     
+                <div className='p_content'>
+                    <div className='pt_box'>
+                        <PTitle/>
+                    </div>
+                    <div>
+                        Description
+                    </div>
+                </div>
+                <div className="card_box">
+                    <Card />
+                </div>
+
+
             </div>
             <div className="panel" data-color="violet">
                 <h2>Violet panel</h2>
             </div>
-            <div className="panel" data-color="indigo">
+            {/* <div className="panel" data-color="indigo">
                 <h2>Indigo panel</h2>
             </div>
             <div className="panel" data-color="blue">
@@ -58,7 +73,7 @@ const ProjectsBg = () => {
             </div>
             <div className="panel" data-color="red">
                 <h2>Red panel</h2>
-            </div>
+            </div> */}
         </div>
     )
 }

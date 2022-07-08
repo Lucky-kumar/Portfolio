@@ -3,7 +3,6 @@ import Skills from '../Skills/Skills';
 import AboutH from './AboutH';
 import Skillsphere from './Skillsphere';
 import './styles/About.css'
-import Projects from './../Projects/Projects';
 
 const About = () => {
   return (
@@ -17,8 +16,6 @@ const About = () => {
       </div>
       <Skillsphere />
       <Skills/>
-      <Projects/>
-
     </div>
   )
 }
