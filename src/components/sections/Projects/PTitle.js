@@ -4,9 +4,9 @@ import './styles/PTitle.css'
 const PTitle = () => {
     return (
         <div className='pt_body'>
-            <div className='pt_div'>Cryptoverse</div>
+            <div className='pt_div'><b>Cryptoverse</b></div>
             <div className='pt_div'>
-                <span> into amazing experiences</span>
+                <span> Onhaksdhkjsd </span>
             </div>
         </div>
     )
