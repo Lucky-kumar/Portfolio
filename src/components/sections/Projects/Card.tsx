@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from 'react'
 import { useSpring, animated, to } from '@react-spring/web'
 import { useGesture } from 'react-use-gesture'
-import imgs from '../../../utils/carddata.js'
 import './styles/Card.css'
+import img1 from '../../../utils/projects images/1.png'
+
+
 
 
 const calcX = (y: number, ly: number) => -(y - ly - window.innerHeight / 2) / 20
@@ -76,11 +78,7 @@ export default function App() {
           rotateY,
           rotateZ,
         }}>
-        <animated.div style={{ transform: wheelY.to(wheel) }}>
-          {imgs.map((img, i) => (
-            <div key={i} style={{ backgroundImage: `url(${img})` }} />
-          ))}
-        </animated.div>
+        <div style={{ backgroundImage: `url(${img1})` }} />
       </animated.div>
     </div>
   )
