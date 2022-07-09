@@ -4,7 +4,6 @@ import About from './components/sections/About/About';
 import Contact from './components/sections/Contact/Contact';
 import Projects from './components/sections/Projects/Projects';
 import ProjectsH from './components/sections/Projects/ProjectsH';
-import SkillsH from './components/sections/Skills/SkillsH';
 
 function App() {
   return (
