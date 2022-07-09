@@ -1,7 +1,6 @@
 import React from 'react'
 import Greet from './Greet'
 import 'animate.css';
-
 import './styles/Intro.css'
 import Title from './Title';
 import Dp from './Dp';
