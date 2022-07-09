@@ -30,5 +30,5 @@
     justify-content: flex-end; */
   }
   .tagcloud--item:hover {
-    color: #36454F;
+    color: yellow;
   }

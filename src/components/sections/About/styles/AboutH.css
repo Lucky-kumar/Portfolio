@@ -36,6 +36,10 @@ animation-iteration-count: infinite;
 
 }
 
+.ah_text1:hover{
+  color: aqua;
+}
+
 
 @keyframes text {
 0% {
