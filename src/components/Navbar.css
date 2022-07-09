@@ -18,7 +18,7 @@
   #nbr_active:checked ~ .nbr_wrapper{
     clip-path: circle(75%);
   }
-
+  
   .nbr_menu_btn{
     position: fixed;
     z-index: 2;

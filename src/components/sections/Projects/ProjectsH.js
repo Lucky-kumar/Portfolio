@@ -3,7 +3,7 @@ import './styles/ProjectsH.css'
 
 const ProjectsH = () => {
     return (
-        <div className="ph_box">
+        <div className="ph_box" id="projects">
             <div className="ph_body">
 
                 <h1 className="ph_h1" data-heading="Projects">

@@ -6,7 +6,7 @@ import CTitle from './CTitle';
 
 const Contact = () => {
   return (
-    <div className='contact_cntr'>
+    <div className='contact_cntr' id="contact">
       <CTitle />
       <Form />
       <ContactBg />

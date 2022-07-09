@@ -15,9 +15,12 @@ const Skills = () => {
     </div>
 
   return (
-    <div className="skills" id="skills">
+    <div className="skills">
       <div className="sh_box">
       <SkillsH/>
+      </div>
+      <div>
+
       </div>
       <div className="skill_icons_section">
         {Icons.map((language, index) =>

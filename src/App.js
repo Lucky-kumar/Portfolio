@@ -9,11 +9,11 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className='container'>
-      <div className='other'>
+      <div className='other' id="home">
         <Intro />
         <About />
         <ProjectsH />
-        <Projects />
+        <Projects/>
         <Contact />
       </div>
       <div className='nbr'>
