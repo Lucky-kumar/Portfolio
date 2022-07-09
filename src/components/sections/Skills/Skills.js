@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icons } from './../../../utils/Icons';
+import SkillsH from './SkillsH';
 import './styles/Skills.css'
 
 const Skills = () => {
@@ -15,7 +16,9 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
-      <h1 >Skills</h1>
+      <div className="sh_box">
+      <SkillsH/>
+      </div>
       <div className="skill_icons_section">
         {Icons.map((language, index) =>
           language.icon &&

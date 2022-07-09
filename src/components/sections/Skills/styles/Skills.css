@@ -7,6 +7,17 @@
     width: fit-content;
 }
 
+.sh_box{
+    /* background-color: red; */
+    height: 35vh;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .skill_icons_section {
     display: flex;
     flex-direction: row;
