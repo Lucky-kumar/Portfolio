@@ -16,7 +16,7 @@ const Skills = () => {
 
   return (
     <div className="skills">
-      <div className="sh_box">
+      <div className="sh_box" id='skillset'>
       <SkillsH/>
       </div>
       <div>

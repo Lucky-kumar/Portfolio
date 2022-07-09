@@ -18,7 +18,6 @@ const Navbar = () => {
                 <ul className='nbr_ul' id="nbr_uls">
                     <li className='nbr_li' onClick={() => setIsClicked(!isClicked)}><a className='nbr_a' href="#home" >Home</a></li>
                     <li className='nbr_li' onClick={() => setIsClicked(!isClicked)}><a className='nbr_a' href="#about" >About</a></li>
-                    <li className='nbr_li' onClick={() => setIsClicked(!isClicked)}><a className='nbr_a' href="#skillset" >Skills</a></li>
                     <li className='nbr_li' onClick={() => setIsClicked(!isClicked)}><a className='nbr_a' href="#projects" >Projects</a></li>
                     <li className='nbr_li' onClick={() => setIsClicked(!isClicked)}><a className='nbr_a' href="#contact" >Contact</a></li>
                 </ul>
