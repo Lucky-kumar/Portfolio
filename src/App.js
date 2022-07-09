@@ -9,12 +9,16 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className='container'>
-      <Navbar/>
-      <Intro/>
-      <About/>
-      <ProjectsH/>
-      <Projects/>
-      <Contact/>
+      <div className='other'>
+        <Intro />
+        <About />
+        <ProjectsH />
+        <Projects />
+        <Contact />
+      </div>
+      <div className='nbr'>
+        <Navbar />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.nbr{
+    position: absolute;
+    z-index: 1000;
+}
+
+.other{
+    position: absolute;
+    z-index: 1;
+}
