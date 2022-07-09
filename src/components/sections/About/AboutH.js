@@ -3,9 +3,9 @@ import './styles/AboutH.css'
 
 const AboutH = () => {
     return (
-        <div className="abouth_container">
-            <div className="animate three">
-                <span>a</span><span>b</span><span>o</span><span>u</span><span>t</span>
+        <div className="ah_box">
+            <div className="ah_container">
+                <span className="ah_span ah_text1"> About me</span>
             </div>
         </div>
     )

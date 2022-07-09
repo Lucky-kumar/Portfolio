@@ -1,7 +1,9 @@
 
 .p_body {
   color: #000;
-  background-color: #b3e4d4;
+  /* background-color: #b3e4d4; */
+  background: #e4e2f2;
+
   transition: background-color 1.5s ease;
 }
 

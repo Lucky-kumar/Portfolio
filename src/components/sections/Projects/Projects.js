@@ -37,7 +37,7 @@ $(window).scroll(function () {
 const ProjectsBg = () => {
     return (
         <div className="p_body">
-            <div className="panel" data-color="white">  
+            <div className="panel">  
                 <Project card_direction="right" />
             </div>
             <div className="panel" data-color="violet">
