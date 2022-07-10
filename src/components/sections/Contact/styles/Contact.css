@@ -1,10 +1,12 @@
 .contact_cntr{
-    width: fit-content;
-    height: 0vh;
+    width: auto;
+    height: 80vh;
+
+    background-color: rgb(21, 144, 181);
 
 }
 
 .social_box{
     position: relative;
-    margin-left: 150vh ;
+    margin-left: 100vh ;
 }
