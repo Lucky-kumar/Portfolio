@@ -9,9 +9,9 @@ const Form = () => {
         <>
         <div className={isSent ? 'fbody sent' : 'fbody' }>
 
-            <div class="wrapper centered">
-                <article class="letter">
-                    <div class="side">
+            <div className="wrapper centered">
+                <article className="letter">
+                    <div className="side">
                         <h1 className='fh1'>Contact me</h1>
                         <p>
                             <textarea placeholder="Your message"></textarea>

@@ -12,7 +12,9 @@ const About = () => {
       <div id='stars3'></div>
       <AboutH />
       <div className='about_text' data-aos="fade-right" >
-        My name is Lucky kumar. I am a passionate full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod, illum aut cum esse et explicabo corporis expedita error voluptatibus ipsa impedit sint incidunt fugiat! Quis quasi corrupti facilis perferendis tempore assumenda vitae consectetur, repellendus fuga provident ipsum iste et! Numquam laudantium accusamus, quasi vero culpa esse facilis ea molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officia ducimus, distinctio voluptates incidunt vero hic error, illum autem deserunt temporibus aliquid iure quae ut voluptas dicta sunt aperiam laborum sed! Eos, aut repudiandae ut harum asperiores voluptas et iste autem exercitationem, odio officiis illum magnam id quod non! Tenetur.
+        I am currently 3rd year student at Indian Institute of Information Technology, Gwalior. I am a passionate and enthusiastic developer who is in a lovely relationship with coding. I have extensive hands on experience in web developement. <br /> <br /> I have worked with HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, Tailwind CSS and many other technologies. For backend, I have worked with Nodejs, Express, MongoDB, MySQL and Firebase. <br /> <br /> I am also excited for web 3.0 and quite optimistic for the future of technologies. I believe in getting away from keyboard only after completing my tasks not before that. Whenever I am away from keyboard, I prefer to vibe with songs and spend quality time with my loved ones. <br /> <br />
+
+        I am always interested to have new experiences, meet new people and learn new technologies, so feel free to reach out to me.
       </div>
       <Skillsphere />
       <Skills />
