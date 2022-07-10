@@ -2,12 +2,12 @@
  
  .name_svg .name_text {
    font-family: Lora;
-   letter-spacing: 10px;
+   letter-spacing: 12px;
    stroke: #ffa5d8;
    font-size: 90px;
    font-weight: 700;
    stroke-width: 3;
-   animation: textAnimate 5s infinite alternate;
+   animation: textAnimate 3s infinite alternate;
  }
  .mname_svg .mname_text {
   font-family: Lora;
@@ -16,15 +16,15 @@
   font-size: 250px;
   font-weight: 700;
   stroke-width: 3;
-  animation: textAnimate 5s infinite alternate;
+  animation: textAnimate 3s infinite alternate;
 }
  
  @keyframes textAnimate {
    0% {
      stroke-dasharray: 0 50%;
      stroke-dashoffset:  20%;
-     fill:hsl(189, 68%, 75%)
- 
+     /* fill:hsl(189, 68%, 75%) */
+      fill: aqua;
    }
    
    100% {
