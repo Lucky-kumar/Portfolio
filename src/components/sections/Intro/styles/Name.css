@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css?  family=Lora:400,400i,700,700i");
  
  .name_svg .name_text {
-   font-family: Lora;
+   /* font-family: Lora; */
    letter-spacing: 10px;
    stroke: #ffa5d8;
-   font-size: 150px;
+   font-size: 90px;
    font-weight: 700;
    stroke-width: 3;
-  
    animation: textAnimate 5s infinite alternate;
-   
  }
+ .mname_svg .mname_text {
+  /* font-family: Lora; */
+  letter-spacing: 10px;
+  stroke: #ffa5d8;
+  font-size: 250px;
+  font-weight: 700;
+  stroke-width: 3;
+  animation: textAnimate 5s infinite alternate;
+}
  
  @keyframes textAnimate {
    0% {

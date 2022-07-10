@@ -87,42 +87,58 @@
   }
 
   .im{
-    font-weight: 900;
-    font-size: 70px;
+    font-weight: 700;
+    font-size: 55px;
     color: #fff;
     width: auto;
     height: auto;
     display: flex;
     /* background-color: red; */
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    margin-left: 53vh;
+    position: relative;
   }
 
   .name {
     font-weight: 900;
     font-size: 70px;
     color: #fff;
-    width: auto;
-    height: auto;
-    display: flex;
-    /* background-color: red; */
-    align-items: center;
-    justify-content: center;
+    width: 110vh;
+    height: 50vh ;
     margin-top: 20px;
-
+    margin-left: 50vh;
+    position: absolute;
   }
 
-  .name:hover{
+  .sirname{
     font-weight: 900;
     font-size: 70px;
-    color: rgb(118, 246, 255);
+    color: #fff;
+    width: 90vh;
+    height: 16vh ;
+    margin-top: 250px;
+    margin-left: 50vh;
+    position: absolute;
+  }
+
+  .title_box{
+    position: relative;
     width: auto;
     height: auto;
-    display: flex;
-    /* background-color: red; */
-    align-items: center;
-    justify-content: center;
+    margin-top: 380px;
+    margin-right: 110px;
   }
+
+  .dp_box{
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+  }
+
+
 
 
   

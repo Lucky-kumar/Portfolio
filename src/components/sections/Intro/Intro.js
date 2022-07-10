@@ -18,11 +18,16 @@ const Intro = () => {
           <div className="cube"></div>
           <div className="cube"></div>
           <div className="cube"></div>
-          <Greet/>
+          <Greet />
           <h1 className="im animate__animated animate__fadeIn">I'm</h1>
-          <h1 className="name animate__animated animate__zoomInDown"><Name/></h1> 
-           <Dp/>
-          <Title/>
+          <h1 className="name animate__animated animate__zoomInDown"><Name name="Lucky" /></h1>
+          <h1 className="sirname animate__animated animate__zoomInDown"><Name name="Kumar" /></h1>
+          <div className='dp_box'>
+            <Dp />
+          </div>
+          <div className="title_box">
+            <Title />
+          </div>
         </div>
       </div>
 
