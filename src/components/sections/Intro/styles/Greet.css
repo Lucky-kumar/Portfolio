@@ -5,23 +5,21 @@ h1.ml8 {
     width: 1em;
     height: 1em;
     display: flex;
-    /* background-color: red; */
     align-items: center;
     justify-content: center;
   }
   
   .ml8 .letters-container {
     position: absolute;
-    left: 200px;
+    left: 120px;
     right: 0;
     margin: inherit;
-    top: 125px;
+    top: 215px;
     bottom: 0;
     height: 1em;
     width: auto;
     display: flex;
     justify-content: left;
-    /* background-color: black; */
   }
   
   .ml8 .letters {
@@ -31,7 +29,7 @@ h1.ml8 {
     line-height: 0.7em;
     right: -0.12em;
     top: -0.2em;
-    /* background-color: skyblue; */
+    /* background-color: red; */
   }
   
   .ml8 .bang {
@@ -54,8 +52,8 @@ h1.ml8 {
     height: 3em;
     border: 2px dashed white;
     border-radius: 2em;
-    left: 180px;
-    top: 120px;
+    left: 75px;
+    top: 135px;
   }
   
   .ml8 .circle-dark {
@@ -64,8 +62,8 @@ h1.ml8 {
     background-color: #4ab3ce;
     border-radius: 3em;
     z-index: 1;
-    left: 185px;
-    top: 125px;
+    left: 105px;
+    top: 165px;
   }
   
   .ml8 .circle-dark-dashed {
@@ -74,7 +72,7 @@ h1.ml8 {
     border: 2px dashed #4f7b86;
     width: 2.3em;
     height: 2.3em;
-    left: 0px;
-    top: 0px;
+    left: -79px;
+    top: 42px;
     /* background-color: green; */
   }
