@@ -3,16 +3,21 @@ import './styles/Contact.css'
 import Form from './Form';
 import CTitle from './CTitle';
 import Social from './Social';
+import Gmail from './Gmail';
 
 const Contact = () => {
   return (
-    <div className='contact_cntr' id="contact">
+    <div id="contact" className='contact_bg'>
       <CTitle />
       <Form />
       <div className='social_box'>
         <Social />
       </div>
+      <div className='gmail_box'>
+      <Gmail/>
+      </div>
     </div>
+
   )
 }
 
