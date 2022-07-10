@@ -57,6 +57,7 @@ button {
  color: white;
  font-size: 1rem;
  transition: background-color 0.2s;
+ cursor: pointer;
 }
 button:hover,button :focus {
     outline: none;

@@ -5,15 +5,23 @@ import Contact from './components/sections/Contact/Contact';
 import Projects from './components/sections/Projects/Projects';
 import ProjectsH from './components/sections/Projects/ProjectsH';
 import Navbar from './components/Navbar';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='container'>
       <div className='other' id="home">
         <Intro />
         <About />
         <ProjectsH />
-        <Projects/>
+        <Projects />
         <Contact />
       </div>
       <div className='nbr'>
