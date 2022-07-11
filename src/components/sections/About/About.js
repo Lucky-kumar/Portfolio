@@ -17,7 +17,9 @@ const About = () => {
         I am always interested to have new experiences, meet new people and learn new technologies, so feel free to reach out to me.
       </div>
       <Skillsphere />
-      <Skills />
+      <div className='skills_box'>
+        <Skills />
+      </div>
     </div>
   )
 }

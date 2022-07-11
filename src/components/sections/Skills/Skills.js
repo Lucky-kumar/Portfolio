@@ -10,7 +10,6 @@ const Skills = () => {
       {React.createElement(props.icon, props.options)}
       <div className="skill_description">
         <h4>{props.name}</h4>
-        <p>{props.description}</p>
       </div>
     </div>
 
