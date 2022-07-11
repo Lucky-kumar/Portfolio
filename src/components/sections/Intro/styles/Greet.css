@@ -29,7 +29,6 @@ h1.ml8 {
     line-height: 0.7em;
     right: -0.12em;
     top: -0.2em;
-    /* background-color: red; */
   }
   
   .ml8 .bang {
@@ -74,10 +73,37 @@ h1.ml8 {
     height: 2.3em;
     left: -79px;
     top: 42px;
-    /* background-color: green; */
   }
 
   @media only screen and (max-width: 600px) {
+
+    h1.ml8 {
+      font-weight: 800;
+      font-size: 3em;
+    }
+
+    .ml8 .letters-container {
+      left: 20vw;
+      top: 12vh;
+    }
+
+    .ml8 .circle-dark {
+      width: 2.3em;
+      height: 2.3em;
+      left: 18vw;
+      top: 7vh;
+    }
+
+    .ml8 .circle-white {
+      width: 3em;
+      height: 3em;
+      left: 13vw;
+      top: 5vh;
+    }
+
+    .ml8 .circle-dark-dashed {
+    display: none;
+    }
 
     
   }
