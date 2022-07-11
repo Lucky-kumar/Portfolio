@@ -6,7 +6,7 @@
    stroke: #ffa5d8;
    font-size: 5.859375vw;
    font-weight: 700;
-   stroke-width: 3;
+   stroke-width: 2;
    animation: textAnimate 3s infinite alternate;
  }
  .mname_svg .mname_text {
@@ -15,7 +15,7 @@
   stroke: #ffa5d8;
   font-size: 16.276041666666668vw;
   font-weight: 700;
-  stroke-width: 3;
+  stroke-width: 2.5;
   animation: textAnimate 3s infinite alternate;
 }
  
@@ -39,11 +39,26 @@
 
   .mname_svg .mname_text {
     font-size: 25vw;
+    stroke-width: 1;
   }
 
   .name_svg .name_text {
    font-size: 22vw;
+   stroke-width: 1;
+
+  }
+ }
+
+ @media only screen and (min-width: 600px) and (max-width: 1100px) {
+  .mname_svg .mname_text {
+    font-size: 22vw;
+    stroke-width: 1;
   }
 
+  .name_svg .name_text {
+   font-size: 11vw;
+   stroke-width: 1;
 
- }
+  }
+
+}

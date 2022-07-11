@@ -104,6 +104,31 @@ h1.ml8 {
     .ml8 .circle-dark-dashed {
     display: none;
     }
+  }
 
-    
+  @media only screen and (min-width: 600px) and (max-width: 1100px) {
+    .ml8 .letters-container {
+      left: 20vw;
+      top: 12vh;
+    }
+
+    .ml8 .circle-dark {
+      width: 2.3em;
+      height: 2.3em;
+      left: 18vw;
+      top: 7vh;
+    }
+
+    .ml8 .circle-white {
+      width: 3em;
+      height: 3em;
+      left: 13vw;
+      top: 5vh;
+    }
+
+    .ml8 .circle-dark-dashed {
+    display: none;
+    }
+   
+
   }

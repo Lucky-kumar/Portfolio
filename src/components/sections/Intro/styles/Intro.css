@@ -22,7 +22,7 @@
     margin:0px;
     opacity: 1;
   }
-  .cube {
+  /* .cube {
     position: absolute;
     top: 80vh;
     left: 45vw;
@@ -60,7 +60,7 @@
     animation-delay: 8s;
     left: 50vw;
     top: 10vh;
-  }
+  } */
   
   
   /* Animate Background*/
@@ -150,12 +150,37 @@
     }
 
     .im{
-      margin-top: 20vh;
+      margin-top: 19vh;
       margin-left: 5vw;
-
-
+      font-weight: 700;
+      font-size: 40px;
     }
    
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 1100px) {
+    .im{
+      margin-top: 20vh;
+      margin-left: 5vw;
+      font-weight: 700;
+      font-size: 50px;
+    }
+
+    .name {
+      width: 70vw;
+      margin-left: 15vw;
+    }
+
+    .sirname{
+      width: 50vw;
+      height: 19vh ; 
+
+    }
+
+    .title_box{
+      margin-top: 70vh;
+    }
+  
   }
 
   
