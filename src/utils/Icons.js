@@ -21,13 +21,36 @@ import {
     SiGitlab,
     SiTailwindcss,
     SiPostman,
-    SiMaterialui,w
+    SiMaterialui,
+    SiC,
+    SiInsomnia,
+    SiAntdesign,
+    SiChakraui,
+    SiChartdotjs,
+    SiVisualstudiocode,
+    SiAmazonaws,
+    SiBootstrap,
+    SiNodemon,
+    SiLodash,
+    SiNpm,
+    SiNamebase,
+    SiJupyter,
+    SiCanva,
+    SiLinux,
+    SiReactrouter,
+    SiQwiklabs,
+    SiSass,
+    SiPycharm,
+    SiBabel,
+    SiCodepen,
+    SiCodesandbox,
+    SiJson,
+    SiNodedotjs,
+    SiCodechef,
+    SiCodeforces,
+    SiStyledcomponents,
+    SiLeetcode,
   } from "react-icons/si";
-
-import {
-    FaNodeJs,
-
-} from "react-icons/fa"
 
 const data = [{
     name: 'JavaScript',
@@ -65,8 +88,8 @@ const data = [{
     }
 },
 {
-    name: 'NodeJS',
-    icon: FaNodeJs,
+    name: 'Node.js',
+    icon: SiNodedotjs,
     options: {
         color: '#339933'
     }
@@ -149,6 +172,13 @@ const data = [{
     }
 },
 {
+    name: 'C',
+    icon: SiC,
+    options: {
+        color: '#A8B9CC',
+    }
+},
+{
     name: 'C++',
     icon: SiCplusplus,
     options: {
@@ -192,10 +222,172 @@ const data = [{
     }
 },
 {
+    name: 'Insomnia',
+    icon: SiInsomnia,
+    options: {
+        color: '#4000BF'
+    }
+},
+{
     name: 'Material UI',
     icon: SiMaterialui,
     options: {
         color: '#007FFF'
+    }
+},
+{
+    name: 'Ant Design',
+    icon: SiAntdesign,
+    options: {
+        color: '#0170FE'
+    }
+},
+{
+    name: 'Chakra UI',
+    icon: SiChakraui,
+    options: {
+        color: '#319795'
+    }
+},
+{
+    name: 'Chart.js',
+    icon: SiChartdotjs,
+    options: {
+        color: '#FF6384'
+    }
+},
+{
+    name: 'Visual Studio Code',
+    icon: SiVisualstudiocode,
+    options: {
+        color: '#007ACC'
+    }
+},
+{
+    name: 'Amazon AWS',
+    icon: SiAmazonaws,
+    options: {
+        color: '#232F3E'
+    }
+},
+{
+    name: 'Bootstrap',
+    icon: SiBootstrap,
+    options: {
+        color: '#7952B3'
+    }
+},
+{
+    name: 'Nodemon',
+    icon: SiNodemon,
+    options: {
+        color: '#76D04B'
+    }
+},
+{
+    name: 'Lodash',
+    icon: SiLodash,
+    options: {
+        color: '#3492FF'
+    }
+},
+{
+    name: 'npm',
+    icon: SiNpm,
+    options: {
+        color: '#CB3837'
+    }
+},
+{
+    name: 'Namecheap',
+    icon: SiNamebase,
+    options: {
+        color: '#DE3723'
+    }
+},
+{
+    name: 'Jupyter',
+    icon: SiJupyter,
+    options: {
+        color: '#F37626'
+    }
+},
+{
+    name: 'Canva',
+    icon: SiCanva,
+    options: {
+        color: '#00C4CC'
+    }
+},
+{
+    name: 'Linux',
+    icon: SiLinux,
+    options: {
+        color: '#FCC624'
+    }
+},
+{
+    name: 'React Router',
+    icon: SiReactrouter,
+    options: {
+        color: '#CA4245'
+    }
+},
+{
+    name: 'Qwiklabs',
+    icon: SiQwiklabs,
+    options: {
+        color: '#F5CD0E'
+    }
+},
+{
+    name: 'Sass',
+    icon: SiSass,
+    options: {
+        color: '#CC6699'
+    }
+},
+
+{
+    name: 'Babel',
+    icon: SiBabel,
+    options: {
+        color: '#F9DC3E'
+    }
+},
+{
+    name: 'CodeChef',
+    icon: SiCodechef,
+    options: {
+        color: '#5B4638'
+    }
+},
+{
+    name: 'JSON',
+    icon: SiJson,
+    options: {
+        color: '#000000'
+    }
+},
+{
+    name: 'Codeforces',
+    icon: SiCodeforces,
+    options: {
+        color: '#1F8ACB'
+    }
+},
+{
+    name: 'styled-components',
+    icon: SiStyledcomponents,
+    options: {
+        color: '#DB7093'
+    }
+},
+{
+    name: 'LeetCode',
+    icon: SiLeetcode,
+    options: {
+        color: '#FFA116'
     }
 },
 ]

@@ -2,6 +2,7 @@ import React from 'react'
 import $ from "jquery";
 import './styles/Projects.css'
 import Project from './Project';
+import { name, description,url } from './../../../utils/ProjectsInfo';
 
 
 $(window).scroll(function () {
@@ -34,26 +35,54 @@ $(window).scroll(function () {
 
 }).scroll();
 
-const ProjectsBg = () => {
+const Projects = () => {
     return (
         <div className="p_body">
-            <div className="panel">  
-                <Project card_direction="right" />
+            <div className="panel">
+                <Project
+                    card_direction="right"
+                    name={name[0]}
+                    description={description[0]}
+                    url={url[0]}
+                />
             </div>
             <div className="panel" data-color="violet">
-                <Project card_direction="left" />
+                <Project
+                    card_direction="left"
+                    name={name[1]}
+                    description={description[1]}
+                    url={url[1]}
+                />
             </div>
             <div className="panel" data-color="blue">
-                <Project card_direction="right" />
+                <Project
+                    card_direction="right"
+                    name={name[2]}
+                    description={description[2]}
+                    url={url[2]}
+
+                />
             </div>
             <div className="panel" data-color="green">
-                <Project card_direction="left" />
+                <Project
+                    card_direction="left"
+                    name={name[3]}
+                    description={description[3]}
+                    url={url[3]}
+
+                />
             </div>
             <div className="panel" data-color="orange">
-                <Project card_direction="right" />
+                <Project
+                    card_direction="right"
+                    name={name[4]}
+                    description={description[4]}
+                    url={url[4]}
+
+                />
             </div>
         </div>
     )
 }
 
-export default ProjectsBg
+export default Projects
