@@ -14,10 +14,18 @@ const Skillsphere = () => {
 
         const myTags = [
             'JavaScript', 'CSS', 'HTML',
-            'C', 'C++', 'React',
-            'Python', 'Nextjs', 'git',
-            'GitHub', 'Node.js', 'OpenCV',
-            'GCP', 'MySQL', 'jQuery',
+            'C', 'C++', 'React.js',
+            'Python', 'Nextjs', 'Git',
+            'GitHub', 'Node.js', 'Next.js',
+            'TypeScript', 'MySQL', 'jQuery',
+            'MongoDB', 'Material UI', 'Redux',
+            'Tailwind CSS', 'MySQL', 'jQuery',
+            'Ant Design', 'Babel', 'Bootstrap',
+            'Canva', 'Chakra UI', 'Chart.js',
+            'Express', 'Firebase', 'Insomnia',
+            'JSON', 'Linux', 'Lodash',
+            'Nodemon', 'Postman', 'Vercel',
+            'Vercel', 'Netlify', 'Sass',
         ];
 
         // eslint-disable-next-line no-unused-vars

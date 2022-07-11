@@ -50,6 +50,7 @@ import {
     SiCodeforces,
     SiStyledcomponents,
     SiLeetcode,
+    SiJquery,
   } from "react-icons/si";
 
 const data = [{
@@ -257,13 +258,6 @@ const data = [{
     }
 },
 {
-    name: 'Visual Studio Code',
-    icon: SiVisualstudiocode,
-    options: {
-        color: '#007ACC'
-    }
-},
-{
     name: 'Amazon AWS',
     icon: SiAmazonaws,
     options: {
@@ -388,6 +382,13 @@ const data = [{
     icon: SiLeetcode,
     options: {
         color: '#FFA116'
+    }
+},
+{
+    name: 'jQuery',
+    icon: SiJquery,
+    options: {
+        color: '#0769AD'
     }
 },
 ]
