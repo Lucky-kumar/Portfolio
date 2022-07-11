@@ -30,14 +30,7 @@
 .skill_icons_section svg {
     width: 55px;
     margin: 15px;
-    height: auto;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.skill_item_custom_svg {
-    width: 55px;
-    margin: 15px;
+    margin-bottom: 35px;
     height: auto;
     cursor: pointer;
     transition: 0.2s;
@@ -59,10 +52,10 @@
     align-items: center;
     color: rgb(236, 236, 236);
     opacity: 0;
-    z-index: 10000000000;
+    z-index: 10000000000 ;
     cursor: pointer;
     transition: 0.2s;
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 0.9em;
     background-color: #0d140f;
     padding: 5px 15px;
