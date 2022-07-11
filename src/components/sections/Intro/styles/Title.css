@@ -14,6 +14,8 @@
   margin: 0 0 0 -35vw;
 }
 
+
+
 @keyframes aitf {
   0% {
     background-position: 0% 50%;
@@ -75,3 +77,10 @@
   -moz-backface-visibility: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  .tbox{
+    font-size: 3vw;
+    padding-left: 0;
+  }  
+
+}
