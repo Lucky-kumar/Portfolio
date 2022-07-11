@@ -17,12 +17,12 @@ function App() {
 
   return (
     <div className='container'>
-      <div className='other' id="home">
         <Intro />
-        <About />
-        <ProjectsH />
+      <div className='other' id="home">
+        {/* <About /> */}
+        {/* <ProjectsH />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </div>
       <div className='nbr'>
         <Navbar />
