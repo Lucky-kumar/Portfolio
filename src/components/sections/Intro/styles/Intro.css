@@ -114,6 +114,7 @@
     margin-top: 47.61904761904762vh;
     margin-left: 25vw;
     position: absolute;
+    background-color: blue;
   }
 
   .title_box{
@@ -140,7 +141,13 @@
       margin-left: 5vw;
     }
 
-  
+    .sirname{
+      width: 90vw;
+      margin-left: 5vw;
+      height: 24vh ;
+
+      
+    }
   }
 
   

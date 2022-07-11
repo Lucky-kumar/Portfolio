@@ -11,7 +11,7 @@
  }
  .mname_svg .mname_text {
   font-family: Lora;
-  letter-spacing: 10px;
+  letter-spacing: 12px;
   stroke: #ffa5d8;
   font-size: 16.276041666666668vw;
   font-weight: 700;
@@ -39,7 +39,10 @@
 
   .mname_svg .mname_text {
     font-size: 25vw;
+  }
 
+  .name_svg .name_text {
+   font-size: 22vw;
   }
 
 
