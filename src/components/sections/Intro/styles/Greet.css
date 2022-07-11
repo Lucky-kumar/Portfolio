@@ -76,3 +76,8 @@ h1.ml8 {
     top: 42px;
     /* background-color: green; */
   }
+
+  @media only screen and (max-width: 600px) {
+
+    
+  }

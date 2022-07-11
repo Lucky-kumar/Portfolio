@@ -93,32 +93,25 @@
     width: auto;
     height: auto;
     display: flex;
-    /* background-color: red; */
-    /* justify-content: center; */
     align-items: center;
-    margin-left: 53vh;
-    position: relative;
+    margin-left: 27vw;
+    margin-top: 2vw;
+    position: absolute;
   }
 
   .name {
-    font-weight: 900;
-    font-size: 70px;
-    color: #fff;
-    width: 110vh;
+    width: 50vw;
     height: 50vh ;
-    margin-top: 20px;
-    margin-left: 50vh;
+    margin-left: 25vw;
+    margin-top: 14.005602240896359vh;
     position: absolute;
   }
 
   .sirname{
-    font-weight: 900;
-    font-size: 70px;
-    color: #fff;
-    width: 90vh;
+    width: 40vw;
     height: 16vh ;
-    margin-top: 250px;
-    margin-left: 50vh;
+    margin-top: 47.61904761904762vh;
+    margin-left: 25vw;
     position: absolute;
   }
 
@@ -126,15 +119,15 @@
     position: relative;
     width: auto;
     height: auto;
-    margin-top: 53.221288515406165vh;
-    margin-right: 7.161458333333333vw;
+    margin-top: 63.221288515406165vh;
+    margin-right: 4.161458333333333vw;
   }
 
   .dp_box{
     position: relative;
     height: auto;
     width: auto;
-    margin-top: 14.005602240896359vh;
+    margin-top: 20.005602240896359vh;
     margin-left: 32.552083333333336vw;
   }
 

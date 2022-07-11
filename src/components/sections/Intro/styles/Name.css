@@ -4,7 +4,7 @@
    font-family: Lora;
    letter-spacing: 12px;
    stroke: #ffa5d8;
-   font-size: 90px;
+   font-size: 5.859375vw;
    font-weight: 700;
    stroke-width: 3;
    animation: textAnimate 3s infinite alternate;
@@ -13,7 +13,7 @@
   font-family: Lora;
   letter-spacing: 10px;
   stroke: #ffa5d8;
-  font-size: 250px;
+  font-size: 16.276041666666668vw;
   font-weight: 700;
   stroke-width: 3;
   animation: textAnimate 3s infinite alternate;
