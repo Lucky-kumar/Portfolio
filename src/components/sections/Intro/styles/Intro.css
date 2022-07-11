@@ -105,6 +105,7 @@
     margin-left: 25vw;
     margin-top: 14.005602240896359vh;
     position: absolute;
+    background-color: red;
   }
 
   .sirname{
@@ -131,5 +132,15 @@
     margin-left: 32.552083333333336vw;
   }
 
+
+  @media only screen and (max-width: 600px) {
+
+    .name {
+      width: 90vw;
+      margin-left: 5vw;
+    }
+
+  
+  }
 
   
