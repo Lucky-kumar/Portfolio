@@ -5,6 +5,7 @@
     margin-top: 5rem;
     padding-top: 2rem;
     width: fit-content;
+    /* background-color: red; */
 }
 
 .sh_box{
@@ -70,9 +71,6 @@
     margin-block-end: 0px;
 }
 
-.skill_description p {
-    font-size: 0.8em;
-}
 
 .skill_item:hover {
     transform: scale(1.1);
@@ -90,10 +88,26 @@
         align-items: center;
         padding: 1rem;
     }
+
     .skill_icons_section {
         padding: 5px;
     }
     .skill_icons_section svg {
         margin: 10px;
+        width: 7vw;
+        
     }
+
+    .skill_description {
+        font-size: 2vw;
+        margin-top: 12vw;
+
+    }
+
+    .sh_box{
+        height: 25vh;
+        margin-bottom: 5px;
+    }
+
+
 }

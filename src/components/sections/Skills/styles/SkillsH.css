@@ -47,7 +47,7 @@
 }
 
 .sh_body {
-  font: 4em/1 Open Sans, Impact;
+  font: 5em/1 Open Sans, Impact;
   text-transform: uppercase;
   margin: 0;
   /* background-color: blue; */
@@ -58,6 +58,6 @@
 svg {
   position: relative;
   width: 100%;
-  /* background-color: red; */
   height: 100%;
 }
+
