@@ -31,7 +31,6 @@
 .pt_div:last-of-type {
   width:0px;
   animation: reveal 7s infinite;
-  background-color: red;
 }
 
 .pt_div:last-of-type span {

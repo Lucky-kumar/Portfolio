@@ -12,9 +12,11 @@ const Contact = () => {
       <div className='social_box'>
         <Social />
       </div>
-      {/* <Form /> */}
       <div className='gmail_box'>
-      <Gmail/>
+        <Gmail />
+      </div>
+      <div className='form_box'>
+        <Form />
       </div>
     </div>
 

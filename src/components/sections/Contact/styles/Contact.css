@@ -1,7 +1,7 @@
 .contact_bg{
     position: absolute;
     width: 100%;
-    height: 200vh;
+    height: 300vh;
     background-color: rgb(21, 144, 181);
     z-index: -5;
 }
@@ -20,6 +20,8 @@
 
 }
 
+
+
 @media only screen and (max-width:950px) {
     .social_box{
         position: absolute;
@@ -32,5 +34,10 @@
         margin-left: 10vw;
         margin-top: 1em;
     }
-    
+    .form_box{
+        margin-top: 100vh;
+    }
 }
+
+
+
