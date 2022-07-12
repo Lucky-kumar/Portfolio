@@ -45,14 +45,17 @@
 
 .pbtn_box {
   position: absolute;
-  margin-top: 520px;
-  margin-left: 350px;
+  /* margin-top: 520px; */
+  margin-top: 7.002801120448179vh;
+  margin-left: 19.53125vw;
+  height: auto;
+  width: auto;
 }
 
 .pbtn_box_right {
   position: absolute;
-  margin-top: 500px;
-  margin-right: -1000px;
+  margin-top: 7.002801120448179vh;
+  margin-left: 20vw;
 }
 
 .p_content {

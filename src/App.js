@@ -19,7 +19,7 @@ function App() {
     <div className='container'>
         {/* <Intro /> */}
         {/* <About /> */}
-        <ProjectsH />
+        {/* <ProjectsH /> */}
         <Projects />
         {/* <Contact /> */}
       <div className='nbr'>
