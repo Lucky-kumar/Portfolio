@@ -3,10 +3,10 @@
 .card_box {
   display: flex;
   height: auto;
-  width: auto;
+  width: 39.0625vw;
   justify-content: center;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 6vw;
 }
 
 .pt_box {

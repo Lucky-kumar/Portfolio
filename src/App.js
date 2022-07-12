@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div className='container'>
-        {/* <Intro /> */}
+        <Intro />
         {/* <About /> */}
-        {/* <ProjectsH /> */}
+        <ProjectsH />
         <Projects />
         {/* <Contact /> */}
       <div className='nbr'>
