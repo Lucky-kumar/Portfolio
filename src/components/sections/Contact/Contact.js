@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
       {/* <Form /> */}
       <div className='gmail_box'>
-      {/* <Gmail/> */}
+      <Gmail/>
       </div>
     </div>
 
