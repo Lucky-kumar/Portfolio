@@ -3,7 +3,8 @@
   .ct_body {
     color: #FFFFFF;
     display: flex;
-    position: absolute;
+    position: relative;
+    width: auto;
   }
   
   /*
@@ -31,6 +32,7 @@
     height: 50px;
     overflow: hidden;
     position: relative;
+
   }
   .Words-line:nth-child(odd) {
     transform: skew(60deg, -30deg) scaleY(0.66667);
@@ -78,4 +80,12 @@
   */
   .Words:hover .ctp {
     transform: translate3d(0, -50px, 0);
+  }
+
+  @media only screen and (max-width: 1150px) {
+    .ct_body {
+      color: #FFFFFF;
+      display: flex;
+      position: relative;
+    }   
   }

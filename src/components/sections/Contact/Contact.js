@@ -9,10 +9,10 @@ const Contact = () => {
   return (
     <div id="contact" className='contact_bg'>
       <CTitle />
-      <Form />
       <div className='social_box'>
         <Social />
       </div>
+      <Form />
       <div className='gmail_box'>
       <Gmail/>
       </div>

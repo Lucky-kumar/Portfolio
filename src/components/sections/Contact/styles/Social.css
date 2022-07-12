@@ -2,7 +2,7 @@
   
   .button-block {
     width: 140px;
-    margin: 200px auto;
+    /* margin: 200px auto; */
     display: flex;
     flex-direction: row;
   }

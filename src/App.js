@@ -17,11 +17,11 @@ function App() {
 
   return (
     <div className='container'>
-        {/* <Intro /> */}
+        {/* <Intro />
         <About />
-        {/* <ProjectsH /> */}
-        {/* <Projects /> */}
-        {/* <Contact /> */}
+        <ProjectsH />
+        <Projects /> */}
+        <Contact />
       <div className='nbr'>
         <Navbar />
       </div>

@@ -1,18 +1,21 @@
 .contact_bg{
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 200vh;
     background-color: rgb(21, 144, 181);
     z-index: -5;
 }
 
-
 .social_box{
-    position: relative;
-    margin-left: 100vh ;
+    position: absolute;
+    margin-left: 40vw ;
+    margin-top: -30vh;
+    width: auto;
 }
 
 .gmail_box{
-    position: relative;
-    margin-top: -100px;
+    position: absolute;
+    margin-left: 33vw ;
+    margin-top: -40vh;
+
 }
