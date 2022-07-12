@@ -46,7 +46,7 @@
 .pbtn_box {
   position: absolute;
   margin-top: 500px;
-  margin-right: 480px;
+  margin-left: 350px;
 }
 
 .pbtn_box_right {
@@ -121,5 +121,12 @@
   .pt_box::after {
     bottom: -10px;
   }
+
+  .pbtn_box {
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 40vw;
+  }
+
 
 }

@@ -1,17 +1,16 @@
-  
-  .pbtn_wrapper{
+  .pbtn_wrapper {
     font-family: 'Lato', sans-serif;
     /* position: relative; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  .link_pbtn_wrapper{
+
+  .link_pbtn_wrapper {
     position: relative;
   }
-  
-  .pbtn_a{
+
+  .pbtn_a {
     display: block;
     width: 250px;
     height: 50px;
@@ -26,8 +25,8 @@
     border: 3px solid rgb(57, 248, 255);
     transition: all .35s;
   }
-  
-  .pbtn_icon{
+
+  .pbtn_icon {
     width: 50px;
     height: 50px;
     border: 3px solid transparent;
@@ -38,8 +37,8 @@
     z-index: -1;
     transition: all .35s;
   }
-  
-  .pbtn_icon svg{
+
+  .pbtn_icon svg {
     width: 30px;
     position: absolute;
     top: calc(50% - 15px);
@@ -48,15 +47,34 @@
     fill: #2ecc71;
     transition: all .35s;
   }
-  
-  .pbtn_a:hover{
+
+  .pbtn_a:hover {
     width: 200px;
     border: 3px solid #2ecc71;
     background: transparent;
     color: #2ecc71;
   }
-  
-  .pbtn_a:hover + .pbtn_icon{
+
+  .pbtn_a:hover+.pbtn_icon {
     border: 3px solid #2ecc71;
     right: -25%;
   }
+
+  @media only screen and (max-width: 768px) {
+
+    .pbtn_a {
+      display: block;
+      width: 20vw;
+      height: 25px;
+      line-height: 20px;
+      font-size: 3vw;
+    }
+
+    .pbtn_icon svg {
+      display: none;
+    }
+
+    .pbtn_icon {
+      display: none;
+    }
+ }
