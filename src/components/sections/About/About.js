@@ -3,8 +3,23 @@ import Skills from '../Skills/Skills';
 import AboutH from './AboutH';
 import Skillsphere from './Skillsphere';
 import './styles/About.css'
+import { useMediaQuery } from 'react-responsive';
+
 
 const About = () => {
+
+  const isTablet = useMediaQuery({minWidth: 900, maxWidth:1500})
+  const isMobile = useMediaQuery({maxWidth:900})
+  let rad = 300
+
+  if(isTablet){
+    rad = 400
+  }
+  else if(isMobile){
+    rad = 150
+  }
+
+
   return (
     <div id="about" className='about_html'>
       <div id='stars'></div>
@@ -16,10 +31,10 @@ const About = () => {
 
         I am always interested to have new experiences, meet new people and learn new technologies, so feel free to reach out to me.
       </div>
-      <Skillsphere />
-      <div className='skills_box'>
+      <Skillsphere rad={rad} />
+      {/* <div className='skills_box'>
         <Skills />
-      </div>
+      </div> */}
     </div>
   )
 }

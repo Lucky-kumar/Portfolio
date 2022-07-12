@@ -4,11 +4,12 @@ import TagCloud from 'TagCloud';
 import { useEffect } from 'react';
 // const container = '.tagcloud';
 
+
 <Helmet>
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js" async> </script>
 </Helmet>
 
-const Skillsphere = () => {
+const Skillsphere = ({rad}) => {
 
     useEffect(() => {
 
@@ -31,7 +32,7 @@ const Skillsphere = () => {
         var tagCloud = TagCloud('.content', myTags, {
 
             // radius in px
-            radius: 300,
+            radius: rad,
 
             // animation speed
             // slow, normal, fast
@@ -46,7 +47,7 @@ const Skillsphere = () => {
             // interact with cursor move on mouse out
             keep: true
 
-        },[]);
+        }, []);
     })
 
     return (

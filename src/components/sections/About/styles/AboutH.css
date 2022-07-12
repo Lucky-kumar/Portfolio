@@ -1,58 +1,90 @@
-
-.ah_box{
+.ah_box {
   width: auto;
   height: 30vh;
 }
 
 .ah_container {
   padding: 0;
-margin: 0;
-font-family: sans-serif;
-text-align: center;
-position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .ah_container .ah_span {
-text-transform: uppercase;
-display: block; 
+  text-transform: uppercase;
+  display: block;
 }
 
 .ah_text1 {
-color: white;
-font-size: 120px;
-font-weight: 700;
-letter-spacing: 8px;
-margin-bottom: 20px;
-position: relative;
-/*   shorthand animation property: name | duration | iteration count */
-/*   animation: text 4s 1; */
-animation-name: text;
-animation-duration: 3s;
-animation-iteration-count: infinite;
+  color: white;
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  /*   shorthand animation property: name | duration | iteration count */
+  /*   animation: text 4s 1; */
+  animation-name: text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 
 }
 
-.ah_text1:hover{
+.ah_text1:hover {
   color: aqua;
 }
 
 
 @keyframes text {
-0% {
-  color: black;
-  margin-bottom: -40px;
-}
-30% {
-  letter-spacing: 25px;
-  margin-bottom: -40px;
-}
-85% {
-  letter-spacing: 8px;
-  margin-bottom: -40px;
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
 }
 
+@media only screen and (max-width: 900px) {
+
+  .ah_text1{
+    font-size: 10vw;
+    letter-spacing: 1vw;
+  }
+  .ah_box {
+    width: auto;
+    height: 15vh;
+    margin-bottom: 0;
+    margin-top: 40px;
+  
+  }
+
+  @keyframes text {
+    0% {
+      color: black;
+      margin-bottom: -40px;
+    }
+  
+    30% {
+      letter-spacing: 5vw;
+      margin-bottom: -40px;
+    }
+  
+    85% {
+      letter-spacing: 1vw;
+      margin-bottom: -40px;
+    }
+  }
 }

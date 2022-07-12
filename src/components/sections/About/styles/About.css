@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .about_html {
-  height: auto;
+  /* height: auto; */
+  height: 300vh;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   overflow: hidden;
 }
@@ -107,6 +108,33 @@
 .skills_box{
   margin-bottom: 15vh;
 }
+
+@media only screen and (min-width: 900px) and (max-width: 1500px) {
+  .about_text{
+    position: relative;
+    font-size: 2vw;
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 5vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) { 
+  .about_text{
+    position: relative;
+    font-size: 4vw;
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 5vw;
+    height: auto;
+  }
+
+
+}
+
+
+
 
 
 
