@@ -12,9 +12,9 @@ const Contact = () => {
       <div className='social_box'>
         <Social />
       </div>
-      <Form />
+      {/* <Form /> */}
       <div className='gmail_box'>
-      <Gmail/>
+      {/* <Gmail/> */}
       </div>
     </div>
 

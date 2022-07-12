@@ -19,3 +19,17 @@
     margin-top: -40vh;
 
 }
+
+@media only screen and (max-width:950px) {
+    .social_box{
+        position: absolute;
+        width: auto;
+        margin-left: 10vw;
+        margin-top: 5em;
+    }
+    .gmail_box{
+        position: absolute;
+    
+    }
+    
+}

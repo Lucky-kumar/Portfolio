@@ -73,6 +73,7 @@ textarea:focus {
   width: 35rem;
   background-color: white;
 }
+
 .letter {
   position: absolute;
   left: 0;
@@ -82,11 +83,13 @@ textarea:focus {
   margin: auto;
   perspective: 60rem;
 }
+
 .side {
   height: 12rem;
   background-color: #fcfcf8;
   outline: 1px solid transparent;
 }
+
 .side:nth-of-type(1) {
     padding: 2rem 2rem 0;
     border-radius: 1rem 1rem 0 0;
