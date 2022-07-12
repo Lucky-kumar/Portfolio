@@ -38,22 +38,22 @@ $(window).scroll(function () {
 const Projects = () => {
     return (
         <div className="p_body">
-            {/* <div className="panel">
+            <div className="panel">
                 <Project
                     card_direction="right"
                     name={name[0]}
                     description={description[0]}
                     url={url[0]}
                 />
-            </div> */}
-            {/* <div className="panel" data-color="violet">
+            </div>
+            <div className="panel" data-color="violet">
                 <Project
                     card_direction="left"
                     name={name[1]}
                     description={description[1]}
                     url={url[1]}
                 />
-            </div> */}
+            </div>
             <div className="panel" data-color="blue">
                 <Project
                     card_direction="right"
@@ -63,7 +63,7 @@ const Projects = () => {
 
                 />
             </div>
-            {/* <div className="panel" data-color="green">
+            <div className="panel" data-color="green">
                 <Project
                     card_direction="left"
                     name={name[3]}
@@ -80,7 +80,7 @@ const Projects = () => {
                     url={url[4]}
 
                 />
-            </div> */}
+            </div>
         </div>
     )
 }

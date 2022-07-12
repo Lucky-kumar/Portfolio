@@ -11,6 +11,7 @@
     cursor: grab;
     overflow: hidden;
     touch-action: none;
+    z-index: 1000;
   }
   
   .card:hover {

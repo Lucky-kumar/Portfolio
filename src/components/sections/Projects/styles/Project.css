@@ -45,7 +45,7 @@
 
 .pbtn_box {
   position: absolute;
-  margin-top: 500px;
+  margin-top: 520px;
   margin-left: 350px;
 }
 
@@ -78,6 +78,14 @@
   display: flex;
   height: auto;
   width: auto;
+}
+
+.pbtn_box_mobile {
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 30vw;
+
+
 }
 
 @media only screen and (max-width: 768px) {
