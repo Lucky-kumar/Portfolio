@@ -6,7 +6,7 @@ import './styles/Project.css'
 
 
 const Project = ({ card_direction, name, description,url }) => {
-    console.log(name)
+
     return (
         <>{(card_direction === 'right') ? (
             <>

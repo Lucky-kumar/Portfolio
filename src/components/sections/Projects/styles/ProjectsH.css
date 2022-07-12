@@ -22,9 +22,6 @@
   transform: translate(-50%, -50%);
   position: relative;
   color: #91d4ff;
-  /* background-color: red; */
-  /* margin-top: 600px; */
-
 }
 .ph_h1:before, .ph_h1:after,
 .ph_h1 .ph_span:before,
