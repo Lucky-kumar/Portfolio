@@ -10,10 +10,10 @@ import img1 from '../../../utils/projects images/1.png'
 const calcX = (y: number, ly: number) => -(y - ly - window.innerHeight / 2) / 20
 const calcY = (x: number, lx: number) => (x - lx - window.innerWidth / 2) / 20
 
-const wheel = (y: number) => {
-  const imgHeight = window.innerWidth * 0.3 - 20
-  return `translateY(${-imgHeight * (y < 0 ? 6 : 1) - (y % (imgHeight * 5))}px`
-}
+// const wheel = (y: number) => {
+//   const imgHeight = window.innerWidth * 0.3 - 20
+//   return `translateY(${-imgHeight * (y < 0 ? 6 : 1) - (y % (imgHeight * 5))}px`
+// }
 
 export default function App() {
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function App() {
     })
   )
 
-  const [{ wheelY }, wheelApi] = useSpring(() => ({ wheelY: 0 }))
+  // const [{ wheelY }, wheelApi] = useSpring(() => ({ wheelY: 0 }))
 
   useGesture(
     {
@@ -59,7 +59,7 @@ export default function App() {
         !hovering && api({ rotateX: 0, rotateY: 0, scale: 1 }),
       onWheel: ({ event, offset: [, y] }) => {
         event.preventDefault()
-        wheelApi.set({ wheelY: y })
+        // wheelApi.set({ wheelY: y })
       },
     },
     { domTarget, eventOptions: { passive: false } }

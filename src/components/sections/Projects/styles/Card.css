@@ -33,9 +33,16 @@
   .card_container {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: auto;
     justify-content: right;
     margin-right: 100px;
     margin-top: 30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .card{
+      width: 80vw;
+      height:35vh;
+    }
   }
   
