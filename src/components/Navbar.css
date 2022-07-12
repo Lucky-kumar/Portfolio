@@ -12,7 +12,7 @@
     width: 100%;
     background: #000;
     clip-path: circle(25px at calc(100% - 45px) 45px);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 
   #nbr_active:checked ~ .nbr_wrapper{
