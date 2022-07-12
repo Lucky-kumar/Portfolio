@@ -4,8 +4,14 @@ import Form from './Form';
 import CTitle from './CTitle';
 import Social from './Social';
 import Gmail from './Gmail';
+import { useMediaQuery } from 'react-responsive';
+
+
 
 const Contact = () => {
+
+  const isMobile = useMediaQuery({ maxWidth: 600 })
+
   return (
     <div id="contact" className='contact_bg'>
       <CTitle />
@@ -15,9 +21,13 @@ const Contact = () => {
       <div className='gmail_box'>
         <Gmail />
       </div>
-      <div className='form_box'>
-        <Form />
-      </div>
+      {
+        !isMobile &&
+
+        <div className='form_box'>
+          <Form />
+        </div>
+      }
     </div>
 
   )
