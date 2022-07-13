@@ -14,7 +14,9 @@ const Contact = () => {
 
   return (
     <div id="contact" className='contact_bg'>
+      <div data-aos="fade-right">
       <CTitle />
+      </div>
       <div className='social_box'>
         <Social />
       </div>
@@ -24,7 +26,7 @@ const Contact = () => {
       {
         !isMobile &&
 
-        <div className='form_box'>
+        <div className='form_box' data-aos="zoom-in-up">
           <Form />
         </div>
       }

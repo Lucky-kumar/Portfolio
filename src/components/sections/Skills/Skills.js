@@ -21,7 +21,7 @@ const Skills = () => {
       <div>
 
       </div>
-      <div className="skill_icons_section" data-aos="fade-up-left">
+      <div className="skill_icons_section" data-aos="fade-up">
         {Icons.map((language, index) =>
           language.icon &&
           <IconItem
