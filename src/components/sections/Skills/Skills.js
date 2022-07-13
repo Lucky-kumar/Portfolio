@@ -15,13 +15,13 @@ const Skills = () => {
 
   return (
     <div className="skills">
-      <div className="sh_box" id='skillset'>
+      <div className="sh_box" id='skillset' data-aos="zoom-in-up">
       <SkillsH/>
       </div>
       <div>
 
       </div>
-      <div className="skill_icons_section">
+      <div className="skill_icons_section" data-aos="fade-up-left">
         {Icons.map((language, index) =>
           language.icon &&
           <IconItem
