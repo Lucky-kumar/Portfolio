@@ -1,6 +1,16 @@
-import React from 'react'
+import limg1 from '../utils/projects images/laptop/cryptoverse.png'
+import limg2 from '../utils/projects images/laptop/chatty.png'
+import limg3 from '../utils/projects images/laptop/askmoney.png'
+import limg4 from '../utils/projects images/laptop/getsetfit.png'
+import limg5 from '../utils/projects images/laptop/reallyestate.png'
 
-const name=  [
+import mimg1 from '../utils/projects images/mobile/cryptoverse.png'
+import mimg2 from '../utils/projects images/mobile/chatty.png'
+import mimg3 from '../utils/projects images/mobile/askmoney.png'
+import mimg4 from '../utils/projects images/mobile/getsetfit.png'
+import mimg5 from '../utils/projects images/mobile/reallyestate.png'
+
+const name = [
     "Cryptoverse",
     "Chatty",
     "Ask Money",
@@ -32,4 +42,20 @@ const url = [
     "https://really-estate.vercel.app/"
 ]
 
-export {name, description, url};
+const limage = [
+    limg1,
+    limg2,
+    limg3,
+    limg4,
+    limg5,
+]
+
+const mimage = [
+    mimg1,
+    mimg2,
+    mimg3,
+    mimg4,
+    mimg5,
+]
+
+export { name, description, url, limage, mimage };

@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive'
 
 
 
-const Project = ({ card_direction, name, description, url }) => {
+const Project = ({ card_direction, name, description, url, image }) => {
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
 
     if (isMobile) {
@@ -31,14 +31,14 @@ const Project = ({ card_direction, name, description, url }) => {
                         </div>
                     </div>
                     <div className="card_box" data-aos="zoom-in-up">
-                        <Card />
+                        <Card image={image}/>
                     </div>
                 </div>
             </>
         ) : (
             <>
                 <div className="card_box" data-aos="zoom-in-up">
-                    <Card />
+                    <Card image={image} />
                 </div>
                 <div className='p_content' data-aos="fade-down">
                     <div className='pt_box'>

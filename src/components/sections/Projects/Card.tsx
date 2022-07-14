@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from 'react'
 import { useSpring, animated, to } from '@react-spring/web'
 import { useGesture } from 'react-use-gesture'
 import './styles/Card.css'
-import img1 from '../../../utils/projects images/1.png'
-
 
 
 
@@ -15,7 +13,7 @@ const calcY = (x: number, lx: number) => (x - lx - window.innerWidth / 2) / 20
 //   return `translateY(${-imgHeight * (y < 0 ? 6 : 1) - (y % (imgHeight * 5))}px`
 // }
 
-export default function App() {
+export default function App({image}) {
   useEffect(() => {
     const preventDefault = (e: Event) => e.preventDefault()
     document.addEventListener('gesturestart', preventDefault)
@@ -64,6 +62,7 @@ export default function App() {
     },
     { domTarget, eventOptions: { passive: false } }
   )
+
   return (
     <div className="card_container">
       <animated.div
@@ -78,7 +77,7 @@ export default function App() {
           rotateY,
           rotateZ,
         }}>
-        <div style={{ backgroundImage: `url(${img1})` }} />
+        <div style={{ backgroundImage: `url(${image})` }} />
       </animated.div>
     </div>
   )

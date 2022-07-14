@@ -2,7 +2,9 @@ import React from 'react'
 import $ from "jquery";
 import './styles/Projects.css'
 import Project from './Project';
-import { name, description,url } from './../../../utils/ProjectsInfo';
+import { name, description,url,limage, mimage } from './../../../utils/ProjectsInfo';
+import { useMediaQuery } from 'react-responsive'
+
 
 
 $(window).scroll(function () {
@@ -36,6 +38,9 @@ $(window).scroll(function () {
 }).scroll();
 
 const Projects = () => {
+
+    const isMobile = useMediaQuery({ query: '(max-width: 420px)' })
+
     return (
         <div className="p_body">
             <div className="panel">
@@ -44,6 +49,7 @@ const Projects = () => {
                     name={name[0]}
                     description={description[0]}
                     url={url[0]}
+                    image={isMobile ? mimage[0]: limage[0]}
                 />
             </div>
             <div className="panel" data-color="violet">
@@ -52,6 +58,8 @@ const Projects = () => {
                     name={name[1]}
                     description={description[1]}
                     url={url[1]}
+                    image={isMobile ? mimage[1]: limage[1]}
+
                 />
             </div>
             <div className="panel" data-color="blue">
@@ -60,7 +68,7 @@ const Projects = () => {
                     name={name[2]}
                     description={description[2]}
                     url={url[2]}
-
+                    image={isMobile ? mimage[2]: limage[2]}
                 />
             </div>
             <div className="panel" data-color="green">
@@ -69,7 +77,7 @@ const Projects = () => {
                     name={name[3]}
                     description={description[3]}
                     url={url[3]}
-
+                    image={isMobile ? mimage[3]: limage[3]}
                 />
             </div>
             <div className="panel" data-color="orange">
@@ -78,7 +86,7 @@ const Projects = () => {
                     name={name[4]}
                     description={description[4]}
                     url={url[4]}
-
+                    image={isMobile ? mimage[4]: limage[4]}
                 />
             </div>
         </div>
