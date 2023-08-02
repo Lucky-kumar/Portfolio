@@ -30,7 +30,7 @@ const About = () => {
       </div>
       <div className='about_text' >
         <div data-aos="fade-up">
-          I am currently 3rd year student at Indian Institute of Information Technology, Gwalior. I am a passionate and enthusiastic developer who is in a lovely relationship with coding. I have extensive hands on experience in web developement. <br /> <br />
+          I am currently pre-final year student at Indian Institute of Information Technology, Gwalior. I am a passionate and enthusiastic developer who is in a lovely relationship with coding. I have extensive hands on experience in web developement. <br /> <br />
         </div>
 
         <div data-aos="fade-up">
@@ -38,7 +38,9 @@ const About = () => {
         </div>
 
         <div data-aos="fade-up">
-          I am also excited for web 3.0 and quite optimistic for the future of technologies. I believe in getting away from keyboard only after completing my tasks not before that. Whenever I am away from keyboard, I prefer to vibe with songs and spend quality time with my loved ones. <br /> <br />
+        I am working as a Front-End Intern at MapZot.AI for over 10 months, I honed my skills in creating intuitive user interfaces and developing responsive web pages. During this time, I collaborated effectively with cross-functional teams, gaining a deeper understanding of the importance of seamless integration and user experience.
+
+           <br /> <br />
         </div>
 
         <div data-aos="fade-up">
